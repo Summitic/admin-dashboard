@@ -1,0 +1,6 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="32" height="40" fill="white"/>
+<rect width="32" height="24" transform="matrix(1 0 0 -1 0 72)" fill="white"/>
+<rect width="32" height="24" transform="matrix(-1 0 0 1 72 0)" fill="white"/>
+<rect x="72" y="72" width="32" height="40" transform="rotate(180 72 72)" fill="white"/>
+</svg>

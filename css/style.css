@@ -1,0 +1,29 @@
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #1992d4;
+  --accent-color: #fcbc34;
+  --skeleton-color: #e2e8f0;
+
+  --text-color: #252525;
+  --text-secondary: #666666;
+  --text-bold: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 4fr;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
