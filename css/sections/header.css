@@ -1,0 +1,100 @@
+.header {
+  background: white;
+  display: grid;
+  grid-template-columns: 7fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1.7fr;
+  box-shadow: 0px 3px 3px 0px var(--skeleton-color);
+}
+
+.header__search {
+  grid-area: 1/1/2/2;
+  align-items: center;
+  padding: 0 3rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.search__label i {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.search__query {
+  height: 1.75rem;
+  border-radius: 100px;
+  padding: 0px 44.75rem 0 1rem;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  background: var(--skeleton-color);
+}
+
+.header__bell {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.header__bell i {
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+
+.header__avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__avatar img {
+  height: 4rem;
+  border-radius: 100px;
+}
+
+.header__user {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.user__name {
+  color: var(--text-color);
+}
+
+.header__avatar--sec {
+  display: flex;
+  padding: 0 3rem;
+  gap: 2rem;
+  align-items: center;
+}
+
+.header__avatar--sec img {
+  height: 5rem;
+  border-radius: 100px;
+}
+
+.avatar__greeting {
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+.avatar__id {
+  color: var(--text-color);
+  font-size: 2rem;
+}
+
+.header__button--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__button {
+  color: var(--primary-color);
+  cursor: pointer;
+  background: var(--secondary-color);
+  border: none;
+  border-radius: 50px;
+  height: 3rem;
+  width: 7rem;
+}

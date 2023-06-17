@@ -3,6 +3,7 @@
 
 /* css file imports */
 @import url(./sections/navbar.css);
+@import url(./sections/header.css);
 
 :root {
   --primary-color: #ffffff;
