@@ -4,6 +4,7 @@
 /* css file imports */
 @import url(./sections/navbar.css);
 @import url(./sections/header.css);
+@import url(./sections/project.css);
 
 :root {
   --primary-color: #ffffff;
