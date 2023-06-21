@@ -1,0 +1,29 @@
+.announcement__title {
+  padding: 0.5rem 0;
+}
+
+.announcement__title p {
+  color: var(--text-color);
+}
+
+.announcement__post--container {
+  border-radius: 10px;
+  padding: 1.5rem;
+  display: grid;
+  background: var(--primary-color);
+}
+
+.announcement__post {
+  margin-top: 1rem;
+  box-shadow: 0 0.1rem var(--text-secondary);
+}
+
+.announcement__post:last-child {
+  box-shadow: none;
+}
+
+.announcement__post p {
+  margin: 0.5rem 0 1rem 0;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
