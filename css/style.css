@@ -6,6 +6,7 @@
 @import url(./sections/header.css);
 @import url(./sections/project.css);
 @import url(./sections/announcement.css);
+@import url(./sections/trending.css);
 
 :root {
   --primary-color: #ffffff;

@@ -1,0 +1,43 @@
+.project__trending--container {
+  border-radius: 10px;
+}
+
+.project__trending h3 {
+  padding: 5px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+
+.trending__avatar--container {
+  border-radius: 10px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.trending__avatar {
+  padding: 0 30px;
+  display: flex;
+}
+
+.trending__avatar img {
+  border-radius: 50%;
+  height: 4rem;
+  margin: 20px 0;
+}
+
+.trending__avatar .trending__id {
+  color: var(--text-color);
+}
+
+.trending__avatar .trending__hobby {
+  color: var(--text-secondary);
+  font-size: 1.15rem;
+}
+
+.trending__text {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 20px;
+  justify-content: center;
+}
